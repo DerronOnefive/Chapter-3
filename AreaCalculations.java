@@ -1,7 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *class:AreaCalculations
+ *  Author: Derron Pierre
+ * Version: 1.1
+ * Course ITEC 2140
+ * Written : September 15 2022
+ * This program will run to prompt the user to enter a radius and slove the area.
  */
 package areacalculations;
 import java.util.Scanner;
@@ -9,20 +12,17 @@ import java.util.Scanner;
 
 public class AreaCalculations {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+
         Scanner s = new Scanner(System.in);
-        
-        System.out.println("The Radius value enterd by the:");
+
+        System.out.println("The Radius value entered by user is:");
         double r = s.nextDouble();
         double area = (22*r*r)/7;
         System.out.println("The calculated value of the circle area:" + area);
-       
-        
+
+
     }
-    
+
 }
