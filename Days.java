@@ -1,5 +1,5 @@
 /*
- *class: Alaphabeticalorder
+ *class: Days
  *  Author: Derron Pierre
  * Version: 1.1
  * Course ITEC 2140
